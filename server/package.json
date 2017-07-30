@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node src/index.js",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write 'src/**/*.js'"
+  },
+  "repository": {},
+  "author": "Raghib Hasan <raghibmidhat@gmail.com> (http://raghibm.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cross-env": "^5.0.1",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.3.0",
+    "eslint-config-equimper": "^2.2.1",
+    "eslint-config-prettier": "^2.3.0",
+    "mongoose": "^4.11.5",
+    "prettier": "^1.5.3"
+  }
+}
