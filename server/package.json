@@ -10,9 +10,13 @@
   "author": "Raghib Hasan <raghibmidhat@gmail.com> (http://raghibm.com/)",
   "license": "MIT",
   "dependencies": {
+    "apollo-server-express": "^1.0.4",
     "body-parser": "^1.17.2",
     "cross-env": "^5.0.1",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "faker": "^4.1.0",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
